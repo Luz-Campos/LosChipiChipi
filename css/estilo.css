@@ -1,82 +1,81 @@
-body {
-    font-family: Arial, sans-serif;
+* {
     margin: 0;
     padding: 0;
-    background-color: #f0f0f0;
+    box-sizing: border-box;
 }
 
-header {
-    background-color: #184848;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 50px;
+    background-color:#08090c;
+    color:white;
+    border-bottom:1px solid #ccc ;
+    
+    }
+
+
+.logo{
+    display: flex;
+    align-items: center;  
 }
 
-h1 {
+.logo img{
+    align-items: top;
+    height: 70px;
+    margin-right: 10px;
+    align-items: center;
+    border: 1px solid #ccc;
+   
+}
+
+body{
+    font-family: 'Times New Roman', Times, serif;
     margin: 0;
+    background-color: #303030;
+    
 }
 
-
-/* Estilos para el menú desplegable */
-.dropdown {
-    display: inline-block;
-}
-
-.dropbtn {
-    background-color: #184848;
-    color: #fff;
-    padding: 10px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    z-index: 1;
-}
-
-.dropdown-content a {
-    color: #333;
-    padding: 12px 16px;
-    display: block;
+a{
     text-decoration: none;
+    margin-right: 10px;
+    color:white; 
+}
+a:hover{
+    color:aquamarine;
+}
+nav a{
+    font-weight: 600;
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
+nav{
+    margin-top: 50px;
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-h2{
-    font-family:Arial, Helvetica, sans-serif ;
-    font-size: 20px;
+
+section{
+    align-items: center;
+    background-color:transparent;
+    width: 60%;
+    height: 550px;
+    display: flex;
+    padding: 50px;
+    margin: auto;
+    border: 1px solid #ccc;
+    float:left
+    img{
+        width: 360px;
+    }
 }
 
-main {
-    max-width: 1100px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+.introduccion{
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    margin-bottom: 50px;
+    justify-content: space-between;
 }
 
-p {
-    font-size: 18px;
-    line-height: 1.5;
-}
 
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
