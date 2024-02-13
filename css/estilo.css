@@ -56,26 +56,24 @@ nav{
 
 
 section{
+    
     align-items: center;
-    background-color:transparent;
+    background-color:darkgray;
     width: 60%;
-    height: 550px;
-    display: flex;
+    height: 400px;
     padding: 50px;
     margin: auto;
-    border: 1px solid #ccc;
-    float:left
-    img{
-        width: 360px;
-    }
-}
-
-.introduccion{
-    width: 400px;
-    height: 500px;
-    background-color: white;
+    border: 1px solid #6e6d6d;
     margin-bottom: 50px;
     justify-content: space-between;
 }
+
+.introduccion{
+    font-size: 14px;
+}
+
+
+
+
 
 
