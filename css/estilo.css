@@ -169,5 +169,122 @@ background-color: rgba(101, 67, 33, 0.3);
 }
 
 .introProyecto{
-    padding: 30px;
+    font-size: 18px;
+        background-color: rgba(101, 67, 33, 0.3);
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 80%;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #6e6d6d;
+        text-align: justify;
+}
+
+.introProyecto p{
+    padding-left: 10px;
+}
+.introProyecto ul{
+    padding-left:15px ;
+}
+
+.planProyecto{
+    font-size: 18px;
+        background-color: rgba(101, 67, 33, 0.3);
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 80%;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #6e6d6d;
+        text-align: justify;
+}
+
+.planProyecto ul{
+    padding-left: 15px;
+}
+.planProyecto p{
+    padding-left: 15px;
+}
+
+.repoilacionProyecto{
+    font-size: 18px;
+        background-color: rgba(101, 67, 33, 0.3);
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 80%;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #6e6d6d;
+        text-align: justify;
+    }
+.repoilacionProyecto ul{
+    padding-left: 15px;
+}
+.recopilacionProyecto p{
+    padding-left: 15px;
+}
+.visualProyecto{
+    font-size: 18px;
+        background-color: rgba(101, 67, 33, 0.3);
+        flex-wrap: wrap;
+        align-items: flex-start;
+        width: 80%;
+        max-width: 900px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #6e6d6d;
+        text-align: justify;
+}
+.visualProyecto ul{
+    padding-left: 15px;
+}
+.visualProyecto p{
+    padding-left: 15px;
+}
+.porduccionProyecto{
+font-size: 18px;
+    background-color: rgba(101, 67, 33, 0.3);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #6e6d6d;
+    text-align: justify;
+
+}
+.porduccionProyecto ul{
+    padding-left: 15px;
+}
+.porduccionProyecto{
+    padding-left: 15px;
+}
+.lanzamientoProyecto{
+font-size: 18px;
+    background-color: rgba(101, 67, 33, 0.3);
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #6e6d6d;
+    text-align: justify;
+
+}
+.lanzamientoProyecto ul{
+    padding-left: 15px;
+}
+.lanzamientoProyecto p{
+    padding-left: 15px;
+}
+
+.imgTecWeb{
+    box-shadow: 10px 20px 30px 2px rgba(0, 0, 0, 0.75);
+        -webkit-box-shadow: 10px 20px 30px 2px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 10px 20px 30px 2px rgba(0, 0, 0, 0.75);
 }
