@@ -4,13 +4,14 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Kameron", serif;
+    font-weight: 2200;
     color: white;
     background-repeat: no-repeat;
-    background-color: gray;
-    /* Ajusta el tamaño de la imagen según tus necesidades */
+    background-color: #000C29;
     background-position: center center;
 }
+
 
 header {
     display: flex;
@@ -20,10 +21,12 @@ header {
     background-color: #08090c;
     border-bottom: 1px solid #ccc;
 }
-
-.unidad h2{
-    text-align: justify;
-}
+  
+.unidad {
+    font-family: "Castoro", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
 
 .logo {
     display: flex;
@@ -31,12 +34,16 @@ header {
 }
 
 .logo img {
-    height: 50px;
+    height: 90px;
     margin-right: 10px;
     border: 1px solid #ccc;
 }
 
 nav {
+    font-family: "Kameron", serif;
+    font-optical-sizing: auto;
+    font-weight: 2200;
+    font-style: normal;
     display: flex;
 }
 
@@ -47,13 +54,15 @@ a {
 }
 
 a:hover {
-    color: aquamarine;
+    color: rgb(92, 179, 249);
 }
 
 .introduccion {
+    font-family: "Bai Jamjuree", sans-serif;
+    font-weight: 200;
+    font-style: normal;
     font-size: 18px;
-background-color: rgba(101, 67, 33, 0.3);
-    /* Color gris con opacidad del 0.7 */
+    background-color: #001546;
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -61,23 +70,23 @@ background-color: rgba(101, 67, 33, 0.3);
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    border: 1px solid #6e6d6d;
+    border: 1px solid #cbcbcb;
     text-align: justify;
 }
 
+
 .logo {
     width: 200px;
-
 }
 
 .flexEvolucion {
-
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: flex-start;
     text-align: justify;
-    background-color: rgba(101, 67,33, 0.3);
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
     max-width: 1100px;
     margin: auto;
     padding: 20px;
@@ -85,14 +94,15 @@ background-color: rgba(101, 67, 33, 0.3);
 
 .tWeb{
     display: flex;
-        justify-content: space-around;
-        align-items: center;
-        text-align: justify;
-        background-color: rgba(101, 67, 33, 0.3);
-        max-width: 1100px;
-        margin: auto;
-        padding: 20px;
-        gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    gap: 10px;
 }
 
 .tWeb .imgWeb {
@@ -106,20 +116,20 @@ background-color: rgba(101, 67, 33, 0.3);
 }
 
 .tWeb .imgTecWeb{
-    border: 5px solid white;
-    
+    border: 5px solid white;  
 }
 
 .tFrontend{
     display: flex;
-        justify-content: space-around;
-        align-items: center;
-        text-align: justify;
-        background-color: rgba(101, 67, 33, 0.3);
-        max-width: 1100px;
-        margin: auto;
-        padding: 20px;
-        gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    gap: 10px;
 }
 
 .tFrontend .imgFrontend{
@@ -139,14 +149,15 @@ background-color: rgba(101, 67, 33, 0.3);
 
 .tBackend{
     display: flex;
-        justify-content: space-around;
-        align-items: center;
-        text-align: justify;
-        background-color: rgba(101, 67, 33, 0.3);
-        max-width: 1100px;
-        margin: auto;
-        padding: 20px;
-        gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    gap: 10px;
 }
 
 .tBackend .backendImg{
@@ -161,30 +172,17 @@ background-color: rgba(101, 67, 33, 0.3);
     max-width: 400px;
 }
 
-.encabezadoTec{
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align:center;
-        background-color: rgba(101, 67, 33, 0.3);
-        max-width: 1100px;
-        margin: auto;
-        padding: 20px;
-        padding-bottom: 30px;
-}
-
 .introProyecto{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
 
 .introProyecto p{
@@ -196,15 +194,15 @@ background-color: rgba(101, 67, 33, 0.3);
 
 .planProyecto{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
 
 .planProyecto ul{
@@ -216,15 +214,15 @@ background-color: rgba(101, 67, 33, 0.3);
 
 .repoilacionProyecto{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
     }
 .repoilacionProyecto ul{
     padding-left: 15px;
@@ -234,15 +232,15 @@ background-color: rgba(101, 67, 33, 0.3);
 }
 .visualProyecto{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
 .visualProyecto ul{
     padding-left: 15px;
@@ -251,15 +249,15 @@ background-color: rgba(101, 67, 33, 0.3);
     padding-left: 15px;
 }
 .porduccionProyecto{
-font-size: 18px;
-    background-color: rgba(101, 67, 33, 0.3);
+    font-size: 18px;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
     max-width: 900px;
     margin: auto;
     padding: 20px;
-    border: 1px solid #6e6d6d;
     text-align: justify;
 
 }
@@ -270,15 +268,15 @@ font-size: 18px;
     padding-left: 15px;
 }
 .lanzamientoProyecto{
-font-size: 18px;
-    background-color: rgba(101, 67, 33, 0.3);
+    font-size: 18px;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
     max-width: 900px;
     margin: auto;
     padding: 20px;
-    border: 1px solid #6e6d6d;
     text-align: justify;
 
 }
@@ -296,113 +294,115 @@ font-size: 18px;
 }
 .inicioArqui{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
 
 .servicioWeb{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
 .modeloCliente{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
 .componentesPrincipal{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
 .componentesPrincipal ul{
     padding-left: 20px;
 }
 .componentesWeb{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #6e6d6d;
+    text-align: justify;
 }
 .componentesWeb ul{
     padding-left: 20px;
 }
 .modeloCapa{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
 .modeloCapa ul{
     padding-left: 20px;
 }
 .modelo2Capas{
     font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: justify;
 }
 .modelo2Capas ul{
     padding-left: 20px;
 }
 
 .modelo3Capas{
-        font-size: 18px;
-        background-color: rgba(101, 67, 33, 0.3);
-        flex-wrap: wrap;
-        align-items: flex-start;
-        width: 80%;
-        max-width: 900px;
-        margin: auto;
-        padding: 20px;
-        border: 1px solid #6e6d6d;
-        text-align: justify;
+    font-size: 18px;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #6e6d6d;
+    text-align: justify;
 }
 .modelo3Capas ul{
     padding-left: 20px;
