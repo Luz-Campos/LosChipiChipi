@@ -85,7 +85,6 @@ a:hover {
     align-items: flex-start;
     text-align: justify;
     background-color: #001546;
-    border: 1px solid #cbcbcb;
     max-width: 1100px;
     margin: auto;
     padding: 20px;
@@ -442,4 +441,33 @@ footer {
     margin-top: auto;
     bottom: 0;
     width: 100%;
+}
+
+.eWeb{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    gap: 10px;
+    font-weight: 20px;
+}
+
+.eWeb .imgWeb {
+    align-self: flex-end;
+    margin-top: 10px;
+
+}
+
+.eWeb img {
+    max-width: 100%;
+}
+
+.eWeb .imgEvoWeb{
+    border: 5px solid white;  
+    font-weight: 20px;
 }
