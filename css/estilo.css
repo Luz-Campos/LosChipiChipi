@@ -67,13 +67,12 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 800px;
-    margin: 20px auto;
+    max-width: 1100px;
+    margin: auto;
     padding: 20px;
     border: 1px solid #cbcbcb;
     text-align: justify;
 }
-
 
 .logo {
     width: 200px;
@@ -117,6 +116,23 @@ a:hover {
 
 .tWeb .imgTecWeb{
     border: 5px solid white;  
+}
+
+.encabezado{
+    font-family: "Changa One", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    background-color: #001546;
+    border: 1px solid #cbcbcb;
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 30px;
 }
 
 .tFrontend{
@@ -179,7 +195,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -199,7 +215,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -219,7 +235,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -237,7 +253,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -255,7 +271,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -274,7 +290,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -299,7 +315,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -312,7 +328,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -324,7 +340,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -336,7 +352,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -351,7 +367,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     border: 1px solid #6e6d6d;
@@ -367,7 +383,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -382,7 +398,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     text-align: justify;
@@ -398,7 +414,7 @@ a:hover {
     flex-wrap: wrap;
     align-items: flex-start;
     width: 80%;
-    max-width: 900px;
+    max-width: 1100px;
     margin: auto;
     padding: 20px;
     border: 1px solid #6e6d6d;
@@ -410,7 +426,7 @@ a:hover {
 
 .footerInicio {
     background-color: #08090c;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
     text-align: center;
     position: fixed;
     padding: 1em 0;
@@ -420,7 +436,7 @@ a:hover {
 
 footer {
     background-color: #08090c;
-    border-bottom: 1px solid #ccc;
+    border: 1px solid #ccc;
     text-align: center;
     padding: 1em 0;
     margin-top: auto;
