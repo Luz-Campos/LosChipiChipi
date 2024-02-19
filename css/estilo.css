@@ -8,11 +8,11 @@ body {
     font-weight: 2200;
     color: white;
     background-repeat: no-repeat;
-    background-image: url(/img/fondoInicio.jpg);
+    background-image: url(/img/FondoInicio.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-        background-color: rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 0, 0, 0.2);
     background-position: center center;
 
 }
@@ -435,7 +435,7 @@ a:hover {
     margin-top: 10px;
     border: 1px solid #ccc;
     text-align: center;
-    position: fixed;
+    position: absolute;
     padding: 1em 0;
     bottom: 0;
     width: 100%;
