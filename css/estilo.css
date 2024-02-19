@@ -8,7 +8,7 @@ body {
     font-weight: 2200;
     color: white;
     background-repeat: no-repeat;
-    background-image: url(img/fondoInicio.jpg);
+    background-image: url(/img/fondoInicio.jpg);
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
