@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chipi Chipi</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header>
+        <!-- Menú Superior -->
+
+        <div class=logo>
+            <img src="img/Logo.jpg" alt="">
+            <div class="unidad">
+                <h2 class="unidad">UNIDAD 1</h2>
+            </div>
+        </div>
+        <nav class="menu">
+            <a href="index.html">Inicio</a></li>
+            <a> | </a>
+            <a href="evolucion.html">Evolución</a></li>
+            <a> | </a>
+            <a href="arquitectura.html">Arquitectura</a></li>
+            <a> | </a>
+            <a href="tecnologias.html">Tecnologias</a></li>
+            <a> | </a>
+            <a href="planificacion.html">Planeación</a></li>
+        </nav>
+    </header>
+    <main>
+        <div class="encabezado">
+            <h2>ARQUITECTURA DE LA APLICACIONES WEB</h2>
+        </div>
+        <div class="inicioArqui">
+            <p>Una aplicación Web es proporcionada por un servidor Web y utilizada por usuarios que
+                se Conectan desde cualquier punto vía clientes Web (browsers o navegadores).
+                La arquitectura de un Sitio Web tiene tres componentes principales:</p>
+            <li>Un servidor Web.</li>
+            <li>Una conexión de red.</li>
+            <li>Uno o más clientes.</li>
+        </div>
+        <div class="servicioWeb">
+            <h2>Servidor Web y Protocolo HTTP</h2>
+            <p>
+                El servidor Web distribuye páginas de información formateada a los clientes que las solicitan.
+                Los requerimientos son hechos a través de una conexión de red, y para ello se usa el protocolo HTTP.
+                Una vez que se solicita esta petición mediante el protocolo HTTP y la recibe el servidor Web, éste
+                localiza la página Web en su sistema de archivos y la envía de vuelta al navegador que la solicitó.
+            </p>
+        </div>
+        <div class="modeloCliente">
+            <h2>Modelo Cliente/Servidor de Aplicaciones Web</h2>
+            <p>
+                Las aplicaciones Web están basadas en el modelo Cliente/Servidor que gestionan servidores web, y
+                que utilizan como interfaz páginas web.
+            </p>
+        </div>
+        <div class="componentesPrincipal">
+            <h2>Componentes Principales de un Sitio Web</h2>
+            <ul>
+                <li>Un servidor Web.</li>
+                <li>Una conexión de red.</li>
+                <li>Uno o más clientes.</li>
+            </ul>
+            <p>
+                Una vez que se entrega una página, la conexión entre el browser y el servidor Web se rompe.
+                La lógica del negocio en el servidor se activa por la ejecución de los scripts de las páginas
+                solicitadas.
+            </p>
+        </div>
+        <div class="componentesWeb">
+            <h2>Componentes de una Aplicación Web</h2>
+            <ol>
+                <li>Lógica de negocio.</li>
+                <ul>
+                    <li>Parte más importante de la aplicación.</li>
+                    <li>Define los procesos que involucran a la aplicación.</li>
+                    <li>Conjunto de operaciones requeridas para proveer el servicio.</li>
+                </ul>
+                <li>Administración de los datos.</li>
+                <ul>
+                    <li>Manipulación de BD y archivos.</li>
+                </ul>
+                <li>Interfaz</li>
+                <ul>
+                    <li>Los usuarios acceden a través de navegadores, móviles, PDAs, etc.</li>
+                    <li>Funcionalidad accesible a través del navegador.</li>
+                    <li>Limitada y dirigida por la aplicación.</li>
+                </ul>
+            </ol>
+        </div>
+        <div class="modeloCapa">
+            <h2>Modelo de Capas en Aplicaciones Web</h2>
+            <p>
+                Las aplicaciones web se modelan mediante lo que se conoce como modelo de capas.
+                Una capa representa un elemento que procesa o trata información. Los tipos son:
+            </p>
+            <ul>
+                <li>Modelo de dos capas: La información atraviesa dos capas entre la interfaz y la administración de los
+                    datos.
+                </li>
+                <li>Modelo de n-capas: La información atraviesa varias capas, el más habitual es el modelo de tres
+                    capas.</li>
+            </ul>
+        </div>
+        <div class="modelo2Capas">
+            <h3>Modelo de Dos Capas</h3>
+            <p>
+                Gran parte de la aplicación corre en el lado del cliente (fat client).
+                Las capas son:
+            </p>
+            <ul>
+                <li>Cliente (fat client): La lógica de negocio está inmersa dentro de la aplicación que realiza el
+                    interfaz de
+                    usuario, en el lado del cliente.</li>
+                <li>Servidor: Administra los datos.</li>
+            </ul>
+            <p>
+                Las limitaciones de este modelo son:
+            </p>
+            <ul>
+                <li>Es difícilmente escalable.</li>
+                <li>Número de conexiones reducida.</li>
+                <li>Alta carga de la red.</li>
+                <li>La flexibilidad es restringida.</li>
+                <li>La funcionalidad es limitada.</li>
+            </ul>
+        </div>
+        <div class="modelo3Capas">
+            <h3>Modelo de Tres Capas</h3>
+            <p>
+                Está diseñada para superar las limitaciones de las arquitecturas ajustadas al modelo de dos capas.
+                Introduce una capa intermedia (la capa de proceso). Entre presentación y los datos, los procesos pueden
+                ser
+                manejados de forma
+                separada a la interfaz de usuario y a los datos. Esta capa intermedia centraliza la lógica de negocio,
+                haciendo
+                la administración más sencilla, y los datos se pueden integrar de múltiples fuentes.
+                Las aplicaciones web actuales se ajustan a este modelo.
+            </p><br>
+            <ol>
+                <li>Capa de presentación (parte en el cliente y parte en el servidor).</li>
+                <ul>
+                    <li>Recoge la información del usuario y la envía al servidor (cliente).</li>
+                    <li>Manda información a la capa de proceso para su procesado.</li>
+                    <li>Recibe los resultados de la capa de proceso.</li>
+                    <li>Generan la presentación.</li>
+                    <li>Visualizan la presentación al usuario (cliente).</li>
+                </ul>
+                <li>Capa de proceso (servidor web)</li>
+                <ul>
+                    <li>Recibe la entrada de datos de la capa de presentación.</li>
+                    <li>Interactúa con la capa de datos para realizar operaciones.</li>
+                    <li>Manda los resultados procesados a la capa de presentación.</li>
+                </ul>
+                <li>Capa de datos (servidor de datos)</li>
+                <ul>
+                    <li>Almacena los datos.</li>
+                    <li>Recupera datos.</li>
+                    <li>Mantiene los datos.</li>
+                </ul>
+            </ol>
+        </div>
+    </main>
+</body>
+<footer>
+    <p>&copy; 2024 Los Chipi Chipi</p>
+    <p>Campos González Luz Aneli - 21151603</p>
+    <p>Rosales Martínez Humberto Emmanuel - 21151000</p>
+    <p>Valdés Mora Alondra Rubí - 21151091</p>
+    <p>Síguenos en redes sociales</p>
+    <ul class="social-media">
+        <li><a href="https://www.facebook.com/luzaneli.camposgonzalez?mibextid=ZbWKwL" target="_blank"><img
+                    src="img/Logos/facebook.png" alt="Facebook"></a></li>
+        <li><a href="https://x.com/aneli_luz?s=08" target="_blank"><img src="img/Logos/xLogo.avif" alt="Twitter"></a>
+        </li>
+        <li><a href="https://www.instagram.com/luz.campos.09?igsh=MW5mMzdwdGhuYnM1cg==" target="_blank"><img
+                    src="img/Logos/logoInsta.png" alt="Instagram"></a></li>
+    </ul>
+</footer>
+
+</html>
