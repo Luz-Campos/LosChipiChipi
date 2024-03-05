@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.card:hover{
+    box-shadow: 0 20px 30px rgba(0,0,0,0.70);
+    transform: scale(1.02);
+    transition: all 0.5s;
+}
+
+.carousel-container {
+    margin-top: 0;
+}
+
+
+.container-login{
+    background-color: #004E56;
+    color: white;
+    width: 50%;
+    height: 50%;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.70);
+    padding: 40px;
+    padding-top: 10pxs;
+
+}
+
+.card{
+    width: 18rem;
+    height: 25rem;
+    background-color: #acd7d3;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.30);
+}
+
+.btn{
+    background-color: #004E56;
+        border-color: #004E56;
+}
+
+.modal-body {
+    display: flex;
+    align-items: center;
+    
+}
+
+.imgModal{
+    width: 30%;
+}
