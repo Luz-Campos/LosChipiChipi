@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="Agregar Elemento" onclick="agregarElemento()">
+    <input type="button" value="Borrar Elemento" onclick="borrarElemento()">
+    <ul id="lista">
+        <li>Elemento</li>
+    </ul>
+    <script>
+        var contador = 1;
+        function agregarElemento(){
+            ++contador;
+            var li = document.createElement("li");
+            var textLi = document.createTextNode('Elemento ' + contador);
+            li.appendChild(textLi);
+            var lista = document.getElementById('lista');            
+            lista.appendChild(li);
+        }
+
+        function borrarElemento(){
+            var lista = document.getElementById('lista');
+            var elementos = lista.getElementsByTagName('li');
+            if(elementos.length > 0){
+                var ultimoElemento = elementos[elementos.length - 1];
+                lista.removeChild(ultimoElemento);
+                --contador;
+            }
+        }
+    </script>    
+</body>
+</html>
