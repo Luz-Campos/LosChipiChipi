@@ -7,7 +7,7 @@
 
 
 .card:hover{
-    box-shadow: 0 20px 30px rgba(0,0,0,0.70);
+    box-shadow: 0 20px 30px rgba(171, 131, 0, 0.9);
     transform: scale(1.02);
     transition: all 0.5s;
 }
@@ -16,29 +16,49 @@
     margin-top: 0;
 }
 
+.image-container {
+    background-color: rgba(57, 53, 53, 0.7);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    
+}
+
+
 
 .container-login{
-    background-color: #004E56;
+    background-color: #000000;
     color: white;
     width: 50%;
     height: 50%;
-    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.70);
+    box-shadow: 0 20px 30px 20px rgba(154, 92, 92, 0.7);
     padding: 40px;
     padding-top: 10pxs;
 
 }
 
 .card{
+    color: white;
     width: 18rem;
     height: 25rem;
-    background-color: #acd7d3;
+    background-color: #222525;
     box-shadow: 0 20px 30px rgba(0, 0, 0, 0.30);
+    border-radius: 20px;
+    
+
 }
 
 .btn{
-    background-color: #004E56;
-        border-color: #004E56;
+    color: white;
+    background-color: rgba(219, 169, 5, 0.9);
+        border-color:rgba(171, 131, 0, 0.9);
 }
+
+.btn:hover{
+    background-color: rgba(171,131,0,0.9);
+    border-color: rgba(158, 150, 124, 0.9);
+}
+
+
 
 .modal-body {
     display: flex;
@@ -47,5 +67,24 @@
 }
 
 .imgModal{
-    width: 30%;
+    width: 250px;
 }
+
+
+#modal-carrito .modal-body ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+/* Estilos CSS para las imágenes en el modal */
+#modal-producto .modal-body .imgModal {
+    max-width: 200px;
+    max-height: 200px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    
+}
+
