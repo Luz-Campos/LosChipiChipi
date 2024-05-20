@@ -3,3 +3,53 @@
 header{
     border-bottom: 1px solid #88888880;
 }
+
+.footer {
+    background-color: #000000;
+    color: white;
+    padding: 20px 0;
+}
+
+.social-icons img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.form-control {
+    background-color: #333333;
+    border: none;
+    color: white;
+}
+
+.form-control:focus {
+    background-color: #444444;
+    color: white;
+}
+
+.btn-outline-custom {
+    border-color: gold;
+    color: gold;
+}
+
+.btn-outline-custom:hover {
+    background-color: #B8860B;
+    border-color: #B8860B;
+    color: white;
+}
+
+form input::placeholder{
+    color: #fff;
+}
+form input{
+color: #fff;
+}
+
+
+.social-icons {
+    text-decoration: none;
+}
+
+.form-label {
+    color: white;
+    /* Cambia el color de las etiquetas del formulario */
+}
