@@ -5,14 +5,57 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\Product;
+use App\Models\Contact;
 
 class FrontendController extends Controller
 {
-    public function index(){
+    public function index()
+    {
         $category = Category::all();
         $product = Product::all();
 
-        return view('welcome')->with(['category' => $category,
-            'product' => $product]);
+        return view('welcome')->with([
+            'category' => $category,
+            'product' => $product
+        ]);
+    }
+
+    public function form_store(Request $request)
+    {
+        // Validación de datos
+        $validatedData = $request->validate([
+            'name' => 'required',
+            'email' => 'required|email',
+            'message' => 'required',
+        ]);
+
+        // Guardar mensaje en la base de datos
+        $message = new Contact();
+        $message->name = $request->name;
+        $message->email = $request->email;
+        $message->message = $request->message;
+        $message->save();
+
+        // Respuesta de éxito para AJAX
+        return response()->json(['success' => true]);
+    }
+
+    public function product_detail($id)
+    {
+        $product = Product::find($id);
+
+        $product = Product::find($id);
+
+        if ($product) {
+            return response()->json([
+                'status' => 'success',
+                'data' => $product
+            ]);
+        } else {
+            return response()->json([
+                'status' => 'error',
+                'message' => 'Producto no encontrado'
+            ], 404);
+        }
     }
 }
