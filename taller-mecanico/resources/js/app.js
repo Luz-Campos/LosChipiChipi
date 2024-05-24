@@ -76,3 +76,29 @@ $(document).ready(function () {
             $('#productModal').modal('show');
         });
     });
+
+    $(document).ready(function() {
+    $('.view-discount').on('click', function() {
+        // Obtener los datos del producto del botón
+        var name2 = $(this).data('name');
+        var description2 = $(this).data('description');
+        var price2 = $(this).data('price');
+        var image2 = $(this).data('image');
+        var discount = $(this).data('discount');
+        var date_start = $(this).data('start');
+        var date_end = $(this).data('end');
+
+        // Llenar los detalles del producto en la ventana modal
+        $('#modalProductName').text('Nombre: ' + name2);
+        $('#modalProductDescription').text('Descripción: ' + description2);
+        $('#modalProductPrice').text('Precio: ' + price2);
+        $('#modalProductDiscount').text('Descuento: ' + discount + '%');
+        $('#modalProductStart').text('Fecha de Inicio: ' + date_start);
+        $('#modalProductEnd').text('Fecha de Termino: ' + date_end);
+        $('#modalProductImage').attr('src', image2);
+
+        // Mostrar la ventana modal
+        $('#discountModal').modal('show');
+    });
+});
+

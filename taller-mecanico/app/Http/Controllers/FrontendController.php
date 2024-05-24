@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\Category;
 use App\Models\Product;
 use App\Models\Contact;
+use Illuminate\Support\Facades\DB;
+
 
 class FrontendController extends Controller
 {
@@ -13,10 +15,15 @@ class FrontendController extends Controller
     {
         $category = Category::all();
         $product = Product::all();
+        $discount = DB::table('discounts as d')
+            ->join('products as p', 'd.id_product', '=', 'p.id')
+            ->select('d.id', 'p.name as producto', 'p.description', 'p.price', 'd.date_start', 'd.date_end', 'p.image', 'd.discount', 'p.id as id_producto')
+            ->get();
 
         return view('welcome')->with([
             'category' => $category,
-            'product' => $product
+            'product' => $product,
+            'discount' => $discount
         ]);
     }
 
