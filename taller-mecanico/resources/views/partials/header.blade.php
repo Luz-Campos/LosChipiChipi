@@ -6,5 +6,6 @@
         <a href="" class="d-inline-block mr-5 text-decoration-none text-dark">Opciones |</a>
         <a href="" class="d-inline-block mr-5 text-decoration-none text-dark">$MXN |</a>
         <a href="" class="d-inline-block mr-5 text-decoration-none text-dark">Español</a>
+        <a href="{{route('login')}}" class="btn btn-success" target="_blank">Login</a>
     </div>
 </header>
